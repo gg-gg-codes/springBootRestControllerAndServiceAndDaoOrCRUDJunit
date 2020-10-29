@@ -29,7 +29,7 @@ import com.codes.book.ticket.app.service.TicketBookingService;
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(value=TicketBookingController.class,secure = false)
-public class TicketBookingControllerTest {
+public class TicketBookingControllerUsingMockMvcServerSideTest {
 
 	@Autowired
 	private MockMvc mockMvc;
